@@ -1,0 +1,460 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+                                        /*header*/
+.container {
+    /*border: 1px solid white;*/
+    max-width: 1168px;
+    margin: auto;
+}
+header{
+    background-color: black;
+    padding: 30px 0px;
+}
+.h-content{
+    display: flex;
+    justify-content: space-between;
+    /*padding: 30px 0;*/
+}
+.logo img {
+    display: block;
+    width: 100%;
+    margin-left: 32px;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+
+}
+header li:last-child {
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 9px 20px 13px 20px;
+    margin-right: 0;
+
+}
+header li:last-child a{
+   font-size: 16px;
+   color: black;
+}
+header li a{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+header li{
+    margin-right: 32px;
+}
+header li:first-child{
+    margin-right: 56px;
+}
+/* header nav ul li:nth-child(2):after{
+    content: "<";
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    transform: rotate(90deg);
+
+} */
+                                /*Section "mApertureStudios"*/
+
+.mApertureStudios{
+    background-image: url('../img/BG.jpg');
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 71px;
+    text-align: center;
+    position: relative;
+}
+.mApertureStudios .container{
+    margin: inherit;
+    color: white;
+    max-width: 580px;
+}
+.mApertureStudios h3{
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.mApertureStudios h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    margin: 0;
+}
+.mApertureStudios p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+.list_item{
+    position: absolute;
+    right: 40px;
+    bottom: 46px;
+    display: flex;
+    list-style-type: none;
+
+}
+.list_item li{
+    margin-left: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+.list_item li:before{
+    content: "";
+    display: inline-block;
+    background-image: url('../img/IMAGE_4.svg');
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 6px;
+}
+.list_item li:nth-child(2):before{
+    background-image: url('../img/IMAGE_3.svg');
+    width: 16px;
+
+}
+.list_item li:nth-child(3):before{
+    background-image: url('../img/IMAGE15.svg');
+    width: 32px;
+
+}
+.list_item li:last-of-type:before{
+    background-image: url('../img/IMAGE_2.svg');
+    width: 10px;
+}
+
+
+                        /* section What we do */
+
+.WhatWeDo{
+    background: #000;
+    padding: 113px 0 100px ;
+
+}
+.WhatWeDo h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.WhatWeDo p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+    }
+.d_flex_galary{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.d_flex_galary .item{
+    max-width:576px ;
+    margin-bottom: 16px;
+    position: relative;
+
+
+}
+.d_flex_galary .item img {
+    display: block;
+    width: 100%;
+
+}
+.d_flex_galary .item .discriprion{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+
+}
+.d_flex_galary .item .discriprion h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+.d_flex_galary .item .discriprion p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+.d_flex_galary .item .discriprion a{
+        display: inline-block;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        border-radius: 14px;
+        background: #FFFFFF;
+        padding: 5px 10px 5px 4px;
+        display: inline-flex;
+        align-items: center;
+}
+    
+.d_flex_galary .item .discriprion a:before{
+        border-radius: 50%;
+        background: #000;
+        width: 32px;
+        height: 32px;
+        content: "";
+        display: inline-block;
+        margin-right: 6px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       /*section "Sunset"*/
+.sunset{
+    background-image: url('../img/Sunset.jpg');
+    background-size: cover;
+    height: 85vh;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    padding-right: 62px;
+
+
+}
+.sunset .container{
+    margin: inherit;
+    color: white;
+    width: 298px;
+
+
+}
+.sunset h3{
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+    text-transform: uppercase;
+
+}
+.sunset p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+     /*section "MonsteraLeafs"*/
+
+.MonsteraLeafs{
+    background-image: url("../img/Monstera_Leafs.jpg");
+    background-size: cover;
+    height: 85vh;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    position: relative;
+    padding-right: 87px;
+
+}
+.MonsteraLeafs .container{
+    margin: inherit;
+    color: white;
+    width: 300px;
+}
+.MonsteraLeafs h3{
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+    text-transform: uppercase;
+
+}
+.MonsteraLeafs p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+          /*section "PastClients"*/
+.PastClients{
+    background-color: #000;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.PastClients h2{
+    font-size: 40px;
+    line-height: 42px;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+
+}
+.PastClients h3{
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 82px;
+}
+.PastClients .container{
+    max-width: 1076px;
+}
+ .d-flex_Items{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+
+}
+ .icons{
+     display: inline-block;
+ }
+.icons img{
+    display: block;
+    width: 100%;
+}
+          /*section "Star_fall"*/
+.Star_fall{
+    background-image: url('../img/Star.jpg');
+    background-size: cover;
+    height: 85vh;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    padding-right: 119px;
+
+}
+.Star_fall .container{
+    margin: inherit;
+    color: white;
+    width: 254px;
+}
+.Star_fall h3{
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+    text-transform: uppercase;
+
+}
+.Star_fall p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+/*section "Need"*/
+.Need{
+    background: black;
+    padding-top: 113px;
+    padding-bottom: 108px;
+}
+.Need .container{
+    /*max-width: 571px;*/
+    text-align: center;
+}
+.Need h2{
+    font-size: 40px;
+    line-height: 42px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.Need h3{
+    font-size: 24px;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    color: #C0C0C0;
+    margin-bottom: 22px;
+}
+.Need a{
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    border-radius: 14px;
+    background: #FFFFFF;
+    padding: 5px 10px 5px 4px;
+}
+
+.Need a:before{
+    border-radius: 50%;
+    background: #000;
+    width: 32px;
+    height: 32px;
+    content: "";
+    display: inline-block;
+    margin-right: 6px;
+    vertical-align: middle;
+
+}
