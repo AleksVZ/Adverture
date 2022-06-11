@@ -10,7 +10,7 @@ a{
     text-decoration: none;
     display: inline-block;
 }
-                                        /*header*/
+                                        /* ?header*/
 .container {
     /*border: 1px solid white;*/
     max-width: 1168px;
@@ -67,7 +67,7 @@ header li:first-child{
     transform: rotate(90deg);
 
 } */
-                                /*Section "mApertureStudios"*/
+/* ?Section "mApertureStudios"*/
 
 .mApertureStudios{
     background-image: url('../img/BG.jpg');
@@ -150,7 +150,7 @@ header li:first-child{
 }
 
 
-                        /* section What we do */
+/* ? section What we do */
 
 .WhatWeDo{
     background: #000;
@@ -248,31 +248,7 @@ header li:first-child{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                       /*section "Sunset"*/
+                       /* ?section "Sunset"*/
 .sunset{
     background-image: url('../img/Sunset.jpg');
     background-size: cover;
@@ -378,7 +354,7 @@ header li:first-child{
     display: block;
     width: 100%;
 }
-          /*section "Star_fall"*/
+          /*? section "Star_fall"*/
 .Star_fall{
     background-image: url('../img/Star.jpg');
     background-size: cover;
@@ -409,7 +385,7 @@ header li:first-child{
     color: #C0C0C0;
 }
 
-/*section "Need"*/
+/* ? section "Need"*/
 .Need{
     background: black;
     padding-top: 113px;
@@ -458,3 +434,60 @@ header li:first-child{
     vertical-align: middle;
 
 }
+
+/* ? footer */
+footer{
+    background: #000;
+    padding-top: 92px;
+    padding-bottom: 104px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px;
+}     
+footer .left-item a{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+footer .left-item p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+footer .right-item{
+    display: flex;
+
+}
+footer .right-item a{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+footer .right-item li:first-of-type{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 10px;
+}
+
+
+footer .right-item ul:first-of-type{
+    margin-right: 55px;
+}
+footer .flex-container{
+    border-bottom: 2px solid  #FFFFFF;
+}
+/* footer .flex-container:last-of-type{
+    border-bottom:none;
+} */
