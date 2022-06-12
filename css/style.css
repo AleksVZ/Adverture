@@ -10,7 +10,8 @@ a{
     text-decoration: none;
     display: inline-block;
 }
-                                        /* ?header*/
+/* ?header*/
+
 .container {
     /*border: 1px solid white;*/
     max-width: 1168px;
@@ -222,28 +223,28 @@ header li:first-child{
 
 }
 .d_flex_galary .item .discriprion a{
-        display: inline-block;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
-        color: #000000;
-        border-radius: 14px;
-        background: #FFFFFF;
-        padding: 5px 10px 5px 4px;
-        display: inline-flex;
-        align-items: center;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    border-radius: 14px;
+    background: #FFFFFF;
+    padding: 5px 10px 5px 4px;
+    display: inline-flex;
+    align-items: center;
 }
     
 .d_flex_galary .item .discriprion a:before{
-        border-radius: 50%;
-        background: #000;
-        width: 32px;
-        height: 32px;
-        content: "";
-        display: inline-block;
-        margin-right: 6px;
-    
+    border-radius: 50%;
+    background: #000;
+    width: 32px;
+    height: 32px;
+    content: "";
+    display: inline-block;
+    margin-right: 6px;
+
     
 }
 
@@ -282,7 +283,32 @@ header li:first-child{
     color: #C0C0C0;
 }
 
-     /*section "MonsteraLeafs"*/
+
+/* ? Section mApertureStudios */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ?section "MonsteraLeafs"*/
 
 .MonsteraLeafs{
     background-image: url("../img/Monstera_Leafs.jpg");
@@ -314,7 +340,7 @@ header li:first-child{
     line-height: 20px;
     color: #C0C0C0;
 }
-          /*section "PastClients"*/
+          /*? section "PastClients"*/
 .PastClients{
     background-color: #000;
     padding-top: 120px;
@@ -444,7 +470,7 @@ footer{
 .flex-container{
     display: flex;
     justify-content: space-between;
-    padding: 36px;
+    padding: 36px 0;
 }     
 footer .left-item a{
     display: inline-block;
@@ -487,7 +513,65 @@ footer .right-item ul:first-of-type{
 }
 footer .flex-container{
     border-bottom: 2px solid  #FFFFFF;
+   
 }
-/* footer .flex-container:last-of-type{
+footer .flex-container:last-of-type{
     border-bottom:none;
-} */
+    padding-top: 56px;
+}
+
+.left-item_Subscribe h4{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+.left-item_Subscribe p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+
+}
+.right-item_Subscribe form{
+    background: white;
+    padding: 11px 6px;
+    border-radius: 12px;
+}
+.right-item_Subscribe form input{
+    border: none;
+    background: transparent;  /** прозрачный background */
+    width: 458px;
+    font-size: 30px;
+
+}
+.right-item_Subscribe form button{
+    background: #000;
+    width: 63px;
+    height: 30px;
+    border-radius: 11px;
+}
+.flex-container:last-of-type p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+
+}
+.flex-container:last-of-type ul{
+    display: flex;
+
+}
+.flex-container:last-of-type ul li{
+    margin-left: 20px;
+    width: 24px;
+    height: 24px;
+}
