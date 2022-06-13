@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 li{
@@ -24,7 +25,7 @@ header{
 .h-content{
     display: flex;
     justify-content: space-between;
-    /*padding: 30px 0;*/
+   
 }
 .logo img {
     display: block;
@@ -520,7 +521,7 @@ footer .flex-container:last-of-type{
     padding-top: 56px;
 }
 
-.left-item_Subscribe h4{
+.left-item h4{
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 14px;
@@ -531,7 +532,10 @@ footer .flex-container:last-of-type{
     margin-bottom: 20px;
 
 }
-.left-item_Subscribe p{
+
+
+
+.left-item p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -540,24 +544,43 @@ footer .flex-container:last-of-type{
     color: #C0C0C0;
 
 }
-.right-item_Subscribe form{
+
+
+
+.right-item form{
     background: white;
-    padding: 11px 6px;
     border-radius: 12px;
-}
-.right-item_Subscribe form input{
-    border: none;
-    background: transparent;  /** прозрачный background */
-    width: 458px;
-    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 6px;
+    /* !           PROBLEM */
+    max-width: 458px;
+    width: 100%;
 
 }
-.right-item_Subscribe form button{
+
+
+.right-item form input{
+    border: none;
+    background: transparent;  /** прозрачный background */
+    display: block;
+    
+}
+.right-item form button{
     background: #000;
     width: 63px;
     height: 30px;
     border-radius: 11px;
+
 }
+
+
+
+
+
+
+
 .flex-container:last-of-type p{
     font-family: 'Poppins';
     font-weight: 400;
