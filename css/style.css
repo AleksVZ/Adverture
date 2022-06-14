@@ -419,7 +419,6 @@ header li:first-child{
     padding-bottom: 108px;
 }
 .Need .container{
-    /*max-width: 571px;*/
     text-align: center;
 }
 .Need h2{
@@ -486,6 +485,8 @@ footer .left-item p{
 }
 footer .right-item{
     display: flex;
+    max-width: 458px;
+    width: 100%;
 
 }
 footer .right-item a{
@@ -574,12 +575,6 @@ footer .flex-container:last-of-type{
     border-radius: 11px;
 
 }
-
-
-
-
-
-
 
 .flex-container:last-of-type p{
     font-family: 'Poppins';
