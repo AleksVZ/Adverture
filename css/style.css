@@ -31,6 +31,9 @@ header{
     display: block;
     width: 100%;
     margin-left: 32px;
+
+    width: 128px;
+    height: 31px;
 }
 
 header ul {
@@ -250,7 +253,7 @@ header li:first-child{
 }
 
 
-                       /* ?section "Sunset"*/
+/* ?section "Sunset"*/
 .sunset{
     background-image: url('../img/Sunset.jpg');
     background-size: cover;
@@ -341,7 +344,8 @@ header li:first-child{
     line-height: 20px;
     color: #C0C0C0;
 }
-          /*? section "PastClients"*/
+/*? section "PastClients"*/
+
 .PastClients{
     background-color: #000;
     padding-top: 120px;
@@ -368,20 +372,21 @@ header li:first-child{
 .PastClients .container{
     max-width: 1076px;
 }
- .d-flex_Items{
+.d-flex_Items{
     display: flex;
     justify-content: space-between;
-     align-items: center;
+    align-items: center;
 
 }
- .icons{
-     display: inline-block;
- }
+.icons{
+    display: inline-block;
+}
 .icons img{
     display: block;
     width: 100%;
 }
-          /*? section "Star_fall"*/
+/*? section "Star_fall"*/
+
 .Star_fall{
     background-image: url('../img/Star.jpg');
     background-size: cover;
@@ -586,6 +591,7 @@ footer .flex-container:last-of-type{
 }
 .flex-container:last-of-type ul{
     display: flex;
+    justify-content: space-between;
 
 }
 .flex-container:last-of-type ul li{
@@ -593,3 +599,43 @@ footer .flex-container:last-of-type{
     width: 24px;
     height: 24px;
 }
+
+ /* ! Animation */
+.mApertureStudios h1:hover{
+    animation: logos 4s ;
+    color: aqua;
+
+}
+
+
+@keyframes logos{
+    0% {                          
+        letter-spacing: 1px ;
+    }
+    50% {
+        letter-spacing: 2px ;
+    }
+    100% {
+        letter-spacing: 1px ;
+    }
+
+}
+ /* ! Animation */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
