@@ -80,6 +80,27 @@
     }
 
 
+
+    .first_letter {
+        animation: none;
+    }
+    .logo img:hover {
+        
+        transform: none;
+    }
+
+    .last_letter{
+        animation: none;
+    }
+    
+
+
+
+
+
+
+
+
 }
 
 @media only screen and (max-width: 428px) {

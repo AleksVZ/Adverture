@@ -594,7 +594,6 @@ footer .flex-container:last-of-type{
 .flex-container:last-of-type ul{
     display: flex;
     justify-content: space-between;
-   
 }
 .flex-container:last-of-type ul li{
     margin-left: 20px;
@@ -604,30 +603,52 @@ footer .flex-container:last-of-type{
 
 
  /* ! Animation */
-.mApertureStudios h1:hover{
-    animation: logos 4s ;
-    color: aqua;
+
+@keyframes bouncing{
+    0%  { bottom: 0;}
+    
+    100%{ bottom: 50px; color: red;}
+    }
+    
+.first_letter {
+    animation: bouncing 0.5s cubic-bezier(.1,.25,.1,1) 0s infinite alternate both;
+    background: transparent; 
+    border-radius: 2px;
+    display: inline-block;
+    color: white;
+    font-size: 54px;
+
+    position: relative;
+    text-decoration: none;
+
+    vertical-align: top;
 
 }
+.logo img:hover {
+    transition: 1.2s;
+    transform: scale(1.2, 1.2);
+}
 
-
-@keyframes logos{
-    0% {                          
-        letter-spacing: 1px ;
+@keyframes swing
+{ 
+    0% {
+        transform: translateX(0);
+        color: rgb(237, 37, 37);
     }
-    50% {
-        letter-spacing: 2px ;
+    50%{
+        transform: translateX(100px);
+        color:#FFFFFF;
+        
     }
     100% {
-        letter-spacing: 1px ;
+        transform: translateX(0);
+        color: rgb(237, 37, 37);
     }
-
 }
- /* ! Animation */
-
-
-
-
+.last_letter{
+    display: inline-block;
+    animation: swing 2s infinite;
+}
 
 
 
