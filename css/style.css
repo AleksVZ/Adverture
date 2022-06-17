@@ -520,11 +520,14 @@ footer .right-item ul:first-of-type{
 }
 footer .flex-container{
     border-bottom: 2px solid  #FFFFFF;
+    
    
 }
 footer .flex-container:last-of-type{
     border-bottom:none;
     padding-top: 56px;
+    
+   
 }
 
 .left-item h4{
@@ -561,7 +564,6 @@ footer .flex-container:last-of-type{
     align-items: center;
     padding: 11px 6px;
     /* !           PROBLEM */
-    max-width: 458px;
     width: 100%;
 
 }
@@ -592,13 +594,14 @@ footer .flex-container:last-of-type{
 .flex-container:last-of-type ul{
     display: flex;
     justify-content: space-between;
-
+   
 }
 .flex-container:last-of-type ul li{
     margin-left: 20px;
     width: 24px;
     height: 24px;
 }
+
 
  /* ! Animation */
 .mApertureStudios h1:hover{

@@ -149,49 +149,74 @@
         margin-bottom: 20px;
     }
 
-
-
-
-
-
-
-
 }
 
+@media only screen and (max-width: 360px) {
+    footer .right-item{
+        flex-direction: column;
+        align-items: center;
+      
+    
+    }
+    footer .right-item ul:first-of-type{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 @media only screen and (max-width: 320px) {
+    header ul {
+        display: none;
     
+    }
+    .mApertureStudios h3{
+        font-size: 14px;
+        line-height: 10px;
+
+    }
+    .mApertureStudios h1{
+
+        font-size: 34px;
+        line-height: 39px;
+
+    }
+    .WhatWeDo h2{
+
+        font-size: 30px;
+        line-height: 32px;
+
+    }
+        .PastClients h2{
+            font-size: 30px;
+            line-height: 32px;
+        }
+        .Need h2{
+            font-size: 30px;
+            line-height: 32px;
+        }
+        .Need h3{
+            font-size: 14px;
+            line-height: 10px;
+
+        }
+    }     
+    footer .left-item a{
+        display: inline-block;
+
+    }
+    footer .left-item p{
+        text-align: center;
+
+    }
 
 }
-@media only screen and (max-width: 280px) {
-    
 
-}
+
+
+
+
+
+
+
