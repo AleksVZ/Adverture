@@ -344,7 +344,32 @@ header li:first-child{
     line-height: 20px;
     color: #C0C0C0;
 }
-/*? section "PastClients"*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TODO section "PastClients"*/
+
+
 
 .PastClients{
     background-color: #000;
@@ -380,11 +405,65 @@ header li:first-child{
 }
 .icons{
     display: inline-block;
+    max-width: 128px;
 }
 .icons img{
     display: block;
     width: 100%;
 }
+
+.owl-item{
+    text-align: center;
+}
+.owl-stage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.owl-nav .owl-prev:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f053";
+    color: #C0C0C0;
+    font-size: 30px;
+    
+   
+
+}
+
+
+.owl-nav .owl-next:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f054";
+    color: #C0C0C0;
+    font-size: 30px;
+}
+
+.owl-nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*? section "Star_fall"*/
 
 .Star_fall{
@@ -492,6 +571,7 @@ footer .right-item{
     display: flex;
     max-width: 458px;
     width: 100%;
+    justify-content: flex-end ;
 
 }
 footer .right-item a{
@@ -526,6 +606,7 @@ footer .flex-container{
 footer .flex-container:last-of-type{
     border-bottom:none;
     padding-top: 56px;
+
     
    
 }
