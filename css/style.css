@@ -288,13 +288,14 @@ header li:first-child{
 }
 
 
-/* TODO Section mApertureStudios */
+/* TODO The_Gear_Cage */
 
 .The_Gear_Cage{
     background: #000;
     position: relative;
     height: 50%;
     overflow: hidden;
+
     
    
 }
@@ -366,11 +367,13 @@ header li:first-child{
     position: absolute;
     right: 0;
     top: 0; 
+    z-index: 0;
 
 }
 .right_side img{
     display: block;
     width: 100%;
+
 }
 
 
