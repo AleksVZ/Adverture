@@ -98,14 +98,15 @@
  
     .first_letter {
         animation: none;
+        font-size: 24px;
     }
     .logo img:hover {
-        
         transform: none;
     }
 
     .last_letter{
         animation: none;
+        
     }
     
 

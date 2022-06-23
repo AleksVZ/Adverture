@@ -7,12 +7,21 @@
     <title>Aperture</title>
 
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    
     <link rel="stylesheet" href="css/media-queries.css">
 
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
-    
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+
+
+
+
+
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
@@ -272,7 +281,7 @@
 
 <!--?section "Need"-->
 
-<section class="Need">
+<!-- <section class="Need">
     <div class="container">
         <h2>Need help with photography <br> or videography?</h2>
         <h3>We're here for you!</h3>
@@ -280,7 +289,26 @@
 
     </div>
 
+</section> -->
+
+
+<section class="Need toggler">
+    <div class="container ui-widget-content ui-corner-all" id="effect">
+        <h3>Need help with photography <br> or videography?</h3>
+        <p>We're here for you!</p>
+        <button id="button" class="ui-state-default ui-corner-all">Get in touch</button>
+        <!-- <a href="#">Get in touch</a> -->
+
+    </div>
+
+
+
+  <select name="effects" id="effectTypes">
+    <option value="bounce"></option>
+  </select>
+
 </section>
+
 
 <!--? Footer -->
 
@@ -381,26 +409,6 @@
         </div>
     </div>
 
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 </footer>
 
 
@@ -413,6 +421,9 @@
   <script src="https://kit.fontawesome.com/bb85ff2c95.js" crossorigin="anonymous"></script>
 
   <script src="js/owl.carousel.js"></script>
+
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
   <script src="js/scripts.js"></script>
  
 </body>
