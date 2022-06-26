@@ -135,12 +135,12 @@
 	transition: transform .2s ease, background-color .5s ease, -webkit-transform .2s ease;
 }
 .menu-icon__line-left {
-	width: 16.5px;
+	width: 17px;
 	-webkit-transition: all 200ms linear;
 	transition: all 200ms linear;
 }
 .menu-icon__line-right {
-	width: 16.5px;
+	width: 17px;
 	float: right;
 	-webkit-transition: all 200ms linear;
 	-moz-transition: all 200ms linear;
