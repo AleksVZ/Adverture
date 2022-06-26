@@ -20,7 +20,7 @@ a{
 }
 header{
     background-color: black;
-    padding: 30px 0px;
+    padding: 25px 0px;
 }
 .h-content{
     display: flex;
@@ -36,42 +36,26 @@ header{
     height: 31px;
 }
 
-header ul {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 20px;
 
-}
 header li:last-child {
     background: #FFFFFF;
     border-radius: 14px;
-    padding: 9px 20px 13px 20px;
+    padding: 9px 0px 13px 0px;
     margin-right: 0;
 
 }
 header li:last-child a{
+    
    font-size: 16px;
    color: black;
 }
-header li a{
-    color: #FFFFFF;
-    font-size: 15px;
-}
-header li{
-    margin-right: 32px;
-}
+
+
 header li:first-child{
     margin-right: 56px;
 }
-/* header nav ul li:nth-child(2):after{
-    content: "<";
-    display: inline-block;
-    font-size: 20px;
-    color: white;
-    transform: rotate(90deg);
 
-} */
+
 /* ?Section "mApertureStudios"*/
 
 .mApertureStudios{
