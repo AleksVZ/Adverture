@@ -65,17 +65,20 @@
 
     
 @media only screen and (max-width: 600px) {
-    .first_letter {
-        animation: none;
-        font-size: 24px;
-    }
+  
     .logo img:hover {
         transform: none;
     }
 
     .last_letter{
         animation: none;
+        color: red;
         
+    }
+    .mApertureStudios p{
+        font-style: 12px;
+
+
     }
 
 

@@ -99,9 +99,9 @@
 	color: #fff;
 	transition : all 0.3s ease-out;
 }
-.logo-wrap a span{ 
+/* .logo-wrap a span{ 
 	color: #8167a9;
-}
+} */
 .logo-wrap a:hover {
 	opacity: 0.9;
   
@@ -188,7 +188,7 @@
 	top: 0%;
 	margin-top: 20px;
 	-webkit-transform: none;
-          transform: none;
+    transform: none;
 	width: 100%;
 	text-align: center;
 }
@@ -228,7 +228,6 @@
 	
 
 
-
  
 }
 .nav__list-item a{ 
@@ -247,9 +246,9 @@
 	display: inline-block;
     width: 114px;
 
-    margin: 0  16px;
 
 }
+
 
 
 
